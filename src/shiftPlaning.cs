@@ -40,7 +40,7 @@ public class shiftPlaning
     private DataSet currentResponse;
     // constants
     private string session_identifier = "SP";
-    const string api_endpoint = "http://www.shiftplanning.com/api/";
+    const string api_endpoint = "https://www.shiftplanning.com/api/";
     const string output_type = "xml";
     private int _init;
     private bool _debug;
@@ -1440,7 +1440,7 @@ public class shiftPlaning
         using (WebClient client = new WebClient())
         {
             client.Headers.Add("KeepsAlive", "true");
-            Byte[] responseData = client.UploadValues("http://www.shiftplanning.com/api/", RequestApi);
+            Byte[] responseData = client.UploadValues("https://www.shiftplanning.com/api/", RequestApi);
             Result = System.Text.Encoding.ASCII.GetString(responseData);
             currentResponse = new DataSet();
             currentResponse = XmlString2DataSet(Result);
