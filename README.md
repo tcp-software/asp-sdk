@@ -1,7 +1,7 @@
 ShiftPlanning ASP SDK
 ================
 
-The [ShiftPlanning API](http://www.shiftplanning.com/api/) allows you to call modules within the ShiftPlanning [employee scheduling software](http://www.shiftplanning.com/) that respond in REST style JSON & XML.
+The [ShiftPlanning API](http://www.humanity.com/api/) allows you to call modules within the ShiftPlanning [employee scheduling software](http://www.humanity.com/) that respond in REST style JSON & XML.
 
 This repository contains the open source ASP SDK that allows you to utilize the
 above on your website. Except as otherwise noted, the ShiftPlanning ASP SDK
@@ -33,7 +33,7 @@ To Logout
 	#In response xml you will find status node value as 1, meaning you have successfully logged out.
 
 [examples]: https://github.com/shiftplanning/ASP-SDK/tree/master/examples/
-[API]: http://www.shiftplanning.com/api/
+[API]: http://www.humanity.com/api/
 
 
 Feedback
